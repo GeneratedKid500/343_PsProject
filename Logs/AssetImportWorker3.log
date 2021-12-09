@@ -1,0 +1,703 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16230 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/BH56FI/UnityProj/343_PsProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57689
+Successfully changed project path to: E:/BH56FI/UnityProj/343_PsProject
+E:/BH56FI/UnityProj/343_PsProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/BH56FI/UnityProj/343_PsProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.012016 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.571 seconds
+Domain Reload Profiling:
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1250ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (716ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.3 MB). Loaded Objects now: 5572.
+Memory consumption went from 207.6 MB to 206.2 MB.
+Total: 4.338900 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.310900 ms MarkObjects: 3.121700 ms  DeleteObjects: 0.546900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37044.890228 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/ember.png
+  artifactKey: Guid(1beab04ec1a278449a790b67f2cd1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/ember.png using Guid(1beab04ec1a278449a790b67f2cd1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e211c386e80d87f64ff929f417fc2') in 0.078446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.095925 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassPattern.png
+  artifactKey: Guid(5ddef0977dde72343992a79d27da33fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassPattern.png using Guid(5ddef0977dde72343992a79d27da33fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b591fd91bf14f97e5002736a4ae3fc68') in 0.032693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/NoiseCloud.png
+  artifactKey: Guid(7dca70292f589e345aef9b57403a46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/NoiseCloud.png using Guid(7dca70292f589e345aef9b57403a46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74a6ee65d42c921aadc04ae66c8b522') in 0.015772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.316725 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase04/PlaneExplanationDebug02URP.mat
+  artifactKey: Guid(d97cf2ab5eff461449720a2642d7dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase04/PlaneExplanationDebug02URP.mat using Guid(d97cf2ab5eff461449720a2642d7dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772a86979a1ae2091699489b0d81d907') in 0.223540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase04/PlaneExplanationDebugURP.mat
+  artifactKey: Guid(7c961bb82caf39044848bcc6a75895b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase04/PlaneExplanationDebugURP.mat using Guid(7c961bb82caf39044848bcc6a75895b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baff5ad78d0a13c6a0698c45b2006c06') in 0.297231 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1466ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1193ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4992 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.9 MB). Loaded Objects now: 5716.
+Memory consumption went from 211.4 MB to 210.5 MB.
+Total: 4.034900 ms (FindLiveObjects: 0.410500 ms CreateObjectMapping: 0.438600 ms MarkObjects: 2.767900 ms  DeleteObjects: 0.416900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1504ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4979 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.9 MB). Loaded Objects now: 5718.
+Memory consumption went from 210.5 MB to 209.6 MB.
+Total: 4.886400 ms (FindLiveObjects: 0.440100 ms CreateObjectMapping: 0.397800 ms MarkObjects: 3.490000 ms  DeleteObjects: 0.557500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1413ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1174ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4979 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.9 MB). Loaded Objects now: 5720.
+Memory consumption went from 210.5 MB to 209.6 MB.
+Total: 4.289500 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.349400 ms MarkObjects: 3.111300 ms  DeleteObjects: 0.458900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1443ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1207ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4979 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.9 MB). Loaded Objects now: 5722.
+Memory consumption went from 210.5 MB to 209.6 MB.
+Total: 4.204400 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.338200 ms MarkObjects: 2.894900 ms  DeleteObjects: 0.552400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 388.468221 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacGrassBall02.mat
+  artifactKey: Guid(d2357d8a607cc2c4e9a0ec670e58d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacGrassBall02.mat using Guid(d2357d8a607cc2c4e9a0ec670e58d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2994b759a7c8e00872a47079325a5e26') in 0.458559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass13.mat
+  artifactKey: Guid(1cf7065f276a0db438d0586aa44a5053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass13.mat using Guid(1cf7065f276a0db438d0586aa44a5053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9674b63d21f594a8b356eb87034dfc4e') in 0.279185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass06.mat
+  artifactKey: Guid(975e8f689ea8bc64982b5e5da583efaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass06.mat using Guid(975e8f689ea8bc64982b5e5da583efaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ac0f3e715bb4134849f62495fe312c') in 0.016415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass14.mat
+  artifactKey: Guid(df8695458e227984dad058d7879f4639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass14.mat using Guid(df8695458e227984dad058d7879f4639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577d943b87b75e7acbd6f69a0b494504') in 0.013557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass01.mat
+  artifactKey: Guid(9c23d730511c97f4ea81b8bbfed235cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass01.mat using Guid(9c23d730511c97f4ea81b8bbfed235cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1382ae406b8e08c5f637e3f68b5efd95') in 0.012251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass15.mat
+  artifactKey: Guid(7ec304ebccfba804884afd02a1a982c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass15.mat using Guid(7ec304ebccfba804884afd02a1a982c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e89ad31f5a2541e9758f15fa956b6a5') in 0.011571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass12.mat
+  artifactKey: Guid(43618d7693b171f45a93651176c0e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass12.mat using Guid(43618d7693b171f45a93651176c0e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc5ad6b847c20baef9688fa5aedf918') in 0.011938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass02.mat
+  artifactKey: Guid(35111a9498481c44e9820c1d8c388a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass02.mat using Guid(35111a9498481c44e9820c1d8c388a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366c5d628b0a79702fb7cec2c72b8bf') in 0.013569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass03.mat
+  artifactKey: Guid(4dbe743a20a86a648aca222cfb3152a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass03.mat using Guid(4dbe743a20a86a648aca222cfb3152a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75870c50b475475f09abc4c0208e3bdc') in 0.011089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass10.mat
+  artifactKey: Guid(f4e702bf54a550e478b8233d2ed1f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass10.mat using Guid(f4e702bf54a550e478b8233d2ed1f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cec63f28c7565baa292cb44ea166bde') in 0.013783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass04.mat
+  artifactKey: Guid(b1c457139c2a634418f1ba53a6a323f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass04.mat using Guid(b1c457139c2a634418f1ba53a6a323f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5649b366fa31290cf88b5b81a3f402d7') in 0.012392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass05.mat
+  artifactKey: Guid(bedc98243430069499d4f240b8d76d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass05.mat using Guid(bedc98243430069499d4f240b8d76d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e31269889a090dc21409b30141cb764') in 0.013846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass16.mat
+  artifactKey: Guid(f8f4bb9e4d516224ba9cbfd280e00110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/MacMobile/URPMacMobileGrass16.mat using Guid(f8f4bb9e4d516224ba9cbfd280e00110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d8e118d3f236e1ca97c59489173e84') in 0.011641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.862018 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP1_BFGrass02.mat
+  artifactKey: Guid(2f70ee98b29abf2428532311b3ffc580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP1_BFGrass02.mat using Guid(2f70ee98b29abf2428532311b3ffc580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbbfb17679d28923638a2c217bbb920') in 0.015900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile01.mat
+  artifactKey: Guid(a45c062568302044b93501ed738b7a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile01.mat using Guid(a45c062568302044b93501ed738b7a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1243e86e8624c808c2397c7f0cedd836') in 0.014849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile04.mat
+  artifactKey: Guid(9bc26ed80b756824a8e0aaa08ca033d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile04.mat using Guid(9bc26ed80b756824a8e0aaa08ca033d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074540060cbc47fd51f0ddedc91efb74') in 0.012015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP2_BFGrassLite02.mat
+  artifactKey: Guid(d28ae5a4b9afe5e4ca929b99056be06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP2_BFGrassLite02.mat using Guid(d28ae5a4b9afe5e4ca929b99056be06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8a359387cc3bc2006cb99afebe4631') in 0.527649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP2_BFGrassLite03.mat
+  artifactKey: Guid(6d5906387daff634eb844bcff0fdfbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP2_BFGrassLite03.mat using Guid(6d5906387daff634eb844bcff0fdfbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad2afa512d377925654eb1b11793986') in 0.014306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile02.mat
+  artifactKey: Guid(75c95633f0e05884d99421eca23bf279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile02.mat using Guid(75c95633f0e05884d99421eca23bf279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e8bb4246166dd733017f2fb582aa2f') in 0.014326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile03.mat
+  artifactKey: Guid(1abebf139eaab3b4484288dfefd0f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP3_BFGrassMobile03.mat using Guid(1abebf139eaab3b4484288dfefd0f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74113c962b27d7a677fb8a50a6a41299') in 0.011475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP1_BFGrass04.mat
+  artifactKey: Guid(ccbb1378c79340a468e4e937f910505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/URP/Showcase01/URP1_BFGrass04.mat using Guid(ccbb1378c79340a468e4e937f910505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e14fbb429755ba42cae85cb4a5c899d') in 0.085766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.469795 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Cliffv2.png
+  artifactKey: Guid(ba86a4af9e5be094690b5afc214215bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Cliffv2.png using Guid(ba86a4af9e5be094690b5afc214215bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621021b4c7d26a8d8c7b8427e59044f') in 0.016853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Noise02.png
+  artifactKey: Guid(9eb8f1ba60975784ea9768fee3955c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Noise02.png using Guid(9eb8f1ba60975784ea9768fee3955c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15688634e498b13df78179edcbfa4c5e') in 0.011354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Dirt02.png
+  artifactKey: Guid(60c0f293ca0c4984d853ab1859579ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Dirt02.png using Guid(60c0f293ca0c4984d853ab1859579ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aa5e56bdd984c4f31df80c67c521dd') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/CookieTest.png
+  artifactKey: Guid(2290a71f74236194997eae7a71e7a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/CookieTest.png using Guid(2290a71f74236194997eae7a71e7a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a5c9e34d02cc827b51d932d776df83') in 0.016665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/RealGrassPattern.png
+  artifactKey: Guid(27893100cc1f09647b28e099d53741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/RealGrassPattern.png using Guid(27893100cc1f09647b28e099d53741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f4ecfd7630ef13717805e76e3f16f2') in 0.008877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.209630 seconds.
+  path: Assets/BruteForce-GrassShader/Extra/SkyboxDefault03.mat
+  artifactKey: Guid(133fabec6a38c08439417f58de253b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Extra/SkyboxDefault03.mat using Guid(133fabec6a38c08439417f58de253b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562b35c2073112717dd075cbc67e04e7') in 0.011136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BruteForce-GrassShader/Extra/URPPP.asset
+  artifactKey: Guid(1bbd967d5b1040145b0be53b7099e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Extra/URPPP.asset using Guid(1bbd967d5b1040145b0be53b7099e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c0cf8ac7a5bc1285db24a0ff0b94fa') in 0.013870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BruteForce-GrassShader/Extra/SunHDRP.mat
+  artifactKey: Guid(f53d7c066e390ea4aa3275032bf64a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Extra/SunHDRP.mat using Guid(f53d7c066e390ea4aa3275032bf64a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dc592ae0afbdb4c29617afee489fe8') in 0.009024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.192130 seconds.
+  path: Assets/BruteForce-GrassShader/Terrain/URP/NewLayer03URP.terrainlayer
+  artifactKey: Guid(d43ccc8ea4af5424f85ebce4324dc754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Terrain/URP/NewLayer03URP.terrainlayer using Guid(d43ccc8ea4af5424f85ebce4324dc754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530a5ff14c469f9a78a4fba25b4a92bf') in 0.012826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BruteForce-GrassShader/Terrain/URP/NewLayer07URP.terrainlayer
+  artifactKey: Guid(6bec1032f5bdf674d82c09cb3227b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Terrain/URP/NewLayer07URP.terrainlayer using Guid(6bec1032f5bdf674d82c09cb3227b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f325d4b1bac3e9f40c37335d3a6650a3') in 0.011651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BruteForce-GrassShader/Terrain/URP/NewLayer06URP.terrainlayer
+  artifactKey: Guid(cd08dd1e9f545244c8c50c9815925634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Terrain/URP/NewLayer06URP.terrainlayer using Guid(cd08dd1e9f545244c8c50c9815925634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17d484cd41b6783834de3f65bd73705') in 0.010421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.098627 seconds.
+  path: Assets/BruteForce-GrassShader/Mesh/PlaneExplanation01.fbx
+  artifactKey: Guid(3768082746dd26d40b334e8d002cf22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Mesh/PlaneExplanation01.fbx using Guid(3768082746dd26d40b334e8d002cf22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b683412d459cf6fed991e5810decfb9') in 0.253014 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015588 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BH56FI\UnityProj\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1528ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1256ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.9 MB). Loaded Objects now: 5847.
+Memory consumption went from 216.9 MB to 216.0 MB.
+Total: 4.742100 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.384200 ms MarkObjects: 3.423200 ms  DeleteObjects: 0.514500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
