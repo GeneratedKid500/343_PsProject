@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro for Workstations; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16272 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/Uni/ThirdYear/346_GamePlatformProgramming/Assessments/Assessment2/343_PsProject/343_PsProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51466
+Successfully changed project path to: F:/Uni/ThirdYear/346_GamePlatformProgramming/Assessments/Assessment2/343_PsProject/343_PsProject
+F:/Uni/ThirdYear/346_GamePlatformProgramming/Assessments/Assessment2/343_PsProject/343_PsProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Uni/ThirdYear/346_GamePlatformProgramming/Assessments/Assessment2/343_PsProject/343_PsProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007799 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008947 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Uni\ThirdYear\346_GamePlatformProgramming\Assessments\Assessment2\343_PsProject\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Uni\ThirdYear\346_GamePlatformProgramming\Assessments\Assessment2\343_PsProject\343_PsProject\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1678ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1438ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.4 MB). Loaded Objects now: 5570.
+Memory consumption went from 209.5 MB to 208.1 MB.
+Total: 4.083600 ms (FindLiveObjects: 0.450400 ms CreateObjectMapping: 0.136900 ms MarkObjects: 2.871400 ms  DeleteObjects: 0.623900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 997005.520966 seconds.
+  path: Assets/_URP_Presets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_URP_Presets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1e371fefea4b1e15d981332026fdb2') in 0.040289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_URP_Presets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_URP_Presets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa11a2cb04e77fe6072177bb6d61b3d3') in 0.013737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2988.675341 seconds.
+  path: Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Body_D.png
+  artifactKey: Guid(dec0930eebaa77d4da9c3da3ecdda11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Body_D.png using Guid(dec0930eebaa77d4da9c3da3ecdda11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea140546a3704b21546d115d720ed9') in 0.466856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Head_S.png
+  artifactKey: Guid(ebc1ae2cfc86ea14bb547216b5a75aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Head_S.png using Guid(ebc1ae2cfc86ea14bb547216b5a75aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bee4ed55d410533d840c1c5815d6e34') in 0.029305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/Models/Meg/T_Wicked_Duck_Eyes.tga.png
+  artifactKey: Guid(87ee5c5d532a8674db84f7fcd73d0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/T_Wicked_Duck_Eyes.tga.png using Guid(87ee5c5d532a8674db84f7fcd73d0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d7993e1096f4db7ac257893e683340') in 0.020688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Head_M.png
+  artifactKey: Guid(2a9de3fb6e0ffc640b7869fad012996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Head_M.png using Guid(2a9de3fb6e0ffc640b7869fad012996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435d69730f0a6fba9fc2055f512d35fe') in 0.020275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Body_N.png
+  artifactKey: Guid(ba4607a071d407d4da8ab04fa47e3681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/T_F_MED_Wicked_Duck_Body_N.png using Guid(ba4607a071d407d4da8ab04fa47e3681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06042b50e3e6571916e3edc56794f6c5') in 0.015546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.199340 seconds.
+  path: Assets/Game/Models/Meg/Mats/MI_Wicked_Duck_Eyes.mat
+  artifactKey: Guid(d2c36953713ebb94b87f8bd439536519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/Mats/MI_Wicked_Duck_Eyes.mat using Guid(d2c36953713ebb94b87f8bd439536519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8456f204ac2f33fbc7a1a8f387dc4103') in 0.179736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.046947 seconds.
+  path: Assets/Game/Models/Dorothy/Materials/F_MED_Commando_Head_01.mat
+  artifactKey: Guid(8eda414f64146174bb5f560f53ec4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Dorothy/Materials/F_MED_Commando_Head_01.mat using Guid(8eda414f64146174bb5f560f53ec4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3001ba30bd751e705c67de9ec16931a') in 0.563754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Models/Dorothy/Materials/F_MED_Rebirth_Soldier_Body.mat
+  artifactKey: Guid(881f845438f110f4696d9ac4353bb5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Dorothy/Materials/F_MED_Rebirth_Soldier_Body.mat using Guid(881f845438f110f4696d9ac4353bb5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a648fc5c2197493caebc0b820716ecc5') in 0.028570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 698.581322 seconds.
+  path: Assets/Game/Models/Meg/Mats/F_MED_Wicked_Duck_Head.mat
+  artifactKey: Guid(8778d11507553d140832e9deccdfb3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/Mats/F_MED_Wicked_Duck_Head.mat using Guid(8778d11507553d140832e9deccdfb3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64546054afb3067d8464e392806ad57e') in 0.039326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Models/Meg/Mats/MI_Wicked_Duck_Eyes.mat
+  artifactKey: Guid(d2c36953713ebb94b87f8bd439536519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Meg/Mats/MI_Wicked_Duck_Eyes.mat using Guid(d2c36953713ebb94b87f8bd439536519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160021730de6ce652c21a5a351690578') in 0.027359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 345.561354 seconds.
+  path: Assets/_URP_Presets/Settings/UniversalRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_URP_Presets/Settings/UniversalRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324a6ec1165b11db4b6a285cd34b9e7f') in 0.011319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_URP_Presets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_URP_Presets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a1b09627c115169b31db6c50c32257') in 0.013174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_URP_Presets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_URP_Presets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc1a65ac17b30d71bf152e73165824f') in 0.008087 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
