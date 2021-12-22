@@ -137,27 +137,27 @@ namespace UnityTemplateProjects
             direction.z = moveDelta.y;
             direction.y = verticalMovementAction.ReadValue<Vector2>().y;
 #else
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || Input.GetAxis("Vertical") > 0)
             {
                 direction += Vector3.forward;
             }
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.S) || Input.GetAxis("Vertical") < 0)
             {
                 direction += Vector3.back;
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || Input.GetAxis("Horizontal") < 0)
             {
                 direction += Vector3.left;
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || Input.GetAxis("Horizontal") > 0)
             {
                 direction += Vector3.right;
             }
-            if (Input.GetKey(KeyCode.Q))
+            if (Input.GetKey(KeyCode.Q) || Input.GetButton("L1"))
             {
                 direction += Vector3.down;
             }
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.E) || Input.GetButton("R1"))
             {
                 direction += Vector3.up;
             }
@@ -256,7 +256,11 @@ namespace UnityTemplateProjects
             boost |= Gamepad.current != null ? Gamepad.current.xButton.isPressed : false;
             return boost;
 #else
-            return Input.GetKey(KeyCode.LeftShift);
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetButton("R2"))
+            {
+                return true;
+            }
+            return false;
 #endif
         }
 
@@ -265,7 +269,11 @@ namespace UnityTemplateProjects
 #if ENABLE_INPUT_SYSTEM
             return Keyboard.current != null ? Keyboard.current.escapeKey.isPressed : false;
 #else
-            return Input.GetKey(KeyCode.Escape);
+            if (Input.GetKey(KeyCode.Escape) || Input.GetButton("TouchPad"))
+            {
+                return true;
+            }
+            return false;
 #endif
         }
 
@@ -276,7 +284,11 @@ namespace UnityTemplateProjects
             canRotate |= Gamepad.current != null ? Gamepad.current.rightStick.ReadValue().magnitude > 0 : false;
             return canRotate;
 #else
-            return Input.GetMouseButton(1);
+            if (Input.GetMouseButton(1) || Input.GetButton("Square"))
+            {
+                return true;
+            }
+            return false;
 #endif
         }
 
@@ -285,7 +297,11 @@ namespace UnityTemplateProjects
 #if ENABLE_INPUT_SYSTEM
             return Mouse.current != null ? Mouse.current.rightButton.isPressed : false;
 #else
-            return Input.GetMouseButtonDown(1);
+            if (Input.GetMouseButtonDown(1) || Input.GetButtonDown("Square"))
+            {
+                return true;
+            }
+            return false;
 #endif
         }
 
@@ -294,7 +310,11 @@ namespace UnityTemplateProjects
 #if ENABLE_INPUT_SYSTEM
             return Mouse.current != null ? !Mouse.current.rightButton.isPressed : false;
 #else
-            return Input.GetMouseButtonUp(1);
+            if (Input.GetMouseButtonUp(1) || Input.GetButtonUp("Square"))
+            {
+                return true;
+            }
+            return false;
 #endif
         }
     }
