@@ -132,7 +132,7 @@ Material:
     - _WindForce: 0.3
     - _WindMovement: 0.2
     - _WorldRotation: 0
-    - _WorldScale: 10
+    - _WorldScale: 0
     - _ZWrite: 1
     - __NumberOfStacks: 17
     m_Colors:

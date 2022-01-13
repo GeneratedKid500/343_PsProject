@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: URPBFGrass03
   m_Shader: {fileID: 4800000, guid: 2c2cefb6802b6cd429dfbe4041764676, type: 3}
-  m_ShaderKeywords: USE_RT USE_S USE_SC _RTEFFECT_ON
+  m_ShaderKeywords: USE_RT USE_S USE_SC
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

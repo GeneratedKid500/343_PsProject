@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - AI_Waypoint
+  - lb_groundTarget
+  - Model
+  - EnemyStations
+  - PlayerStations
+  - lb_perchTarget
+  - Enemy
+  - GameManager
+  - MainCanvas
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -14,7 +24,7 @@ TagManager:
   - Floor
   - Stairs
   - Walls
-  - 
+  - Enemy
   - 
   - 
   - 

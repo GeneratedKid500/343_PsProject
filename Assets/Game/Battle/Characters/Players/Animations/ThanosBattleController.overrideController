@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThanosBattleController
+  m_Controller: {fileID: 9100000, guid: 820fbeb5ad520474d8611e1b9b9a25c0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 8273325049105940540, guid: 43c20e0544eaf2b43aa121ed90a65398, type: 3}
+    m_OverrideClip: {fileID: 8273325049105940540, guid: 55986557c08232148b322371c1b2866e, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 43c20e0544eaf2b43aa121ed90a65398, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 55986557c08232148b322371c1b2866e, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 35fe969982d137046ae465306364f3bc, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: f78c4774fa998e942b425291dc786fc5, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: f6ad0194d6a7f3d4198e8830323ff8b1, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 221719d36c013094699f8444a6262dec, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 357e8ba54ec71024699df81784f6dff3, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 8cfaef5028353c14e936577cb7153e1e, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: b484838ea54745c49be1d8be7cc6ce0c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 95dae4a3ec7db3e4d8ebfee7a2a6f309, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ca40ac0630611614382fbaa554f75e76, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0288abefa5ff5c243910d1ae81803ac2, type: 2}

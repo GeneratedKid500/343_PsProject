@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class FPControl : MonoBehaviour
+public class ThirdPersonControl : MonoBehaviour
 {
     private Rigidbody rb;
     private CapsuleCollider pCollider;
@@ -69,7 +67,9 @@ public class FPControl : MonoBehaviour
     private Transform cameraMain;
     private Transform cameraPivot;
 
-    Animator anim;
+    [Header("Animation")]
+    [SerializeField] bool enableAnim = true;
+    [SerializeField] Animator anim;
     float moveAdd = 0;
 
     void Awake()
@@ -103,7 +103,7 @@ public class FPControl : MonoBehaviour
         cameraLookSpeed = CameraSensitivityX / 10;
         cameraPivotSpeed = CameraSensitivityY / 10;
 
-        anim = GetComponentInChildren<Animator>();
+        if (enableAnim) anim = GetComponentInChildren<Animator>();
     }
 
 
@@ -138,7 +138,6 @@ public class FPControl : MonoBehaviour
     void LateUpdate()
     {
         CAMERA();
-
         AnimationSetVars();
     }
 
@@ -212,6 +211,7 @@ public class FPControl : MonoBehaviour
 
         CameraCollisions();
     }
+
     private void CameraCollisions()
     {
         float targetPos = defaultPos;
@@ -243,7 +243,7 @@ public class FPControl : MonoBehaviour
             crouching = !crouching; //simpler than additional KeyUp
             ApplyCrouch();
         }
-        else if (crouchTimer > 3 && Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.C) || Input.GetKeyUp(KeyCode.LeftControl))
+        else if (crouchTimer > 3 && Input.GetButtonUp(crouchA) || Input.GetButtonUp(crouchB))
         {
             crouching = !crouching;
             crouchTimer = 0;
@@ -252,20 +252,27 @@ public class FPControl : MonoBehaviour
 
         // if player holds button, will auto stand up once key is released.
         //this should be toggleable on the main menu
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.C) || Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetButton(crouchA) || Input.GetButton(crouchB))
         {
             crouchTimer += Time.deltaTime;
         }
     }
     void ApplyCrouch() //applies crouch movement
     {
-        if (crouching)
-            pCollider.height = crouchHeight; //lower height
+        if (!enableAnim)
+        {
+            // halves collider / mesh height
+            if (crouching)
+                pCollider.height = crouchHeight; //lower height
+            else
+                pCollider.height = standHeight; //upper height
+        }
         else
-            pCollider.height = standHeight; //upper height
+        {
+            // add crouching animations
+            return;
+        }
 
-        //halves the height of the collider
-        //lazy but effective solution as its not like the player will be seeing through the floor
     }
     #endregion
 
@@ -287,11 +294,12 @@ public class FPControl : MonoBehaviour
         Debug.DrawRay(stepRayUpper.transform.position, transform.TransformDirection(rayDir));
     }
 
-    void JUMP() //gets the jump input and applies it
+    #region JUMP
+    void JUMP() // handles the player jump input, begins the animation process
     {
         if (Input.GetButtonDown(jumpA) && grounded || Input.GetButtonDown(jumpB) && grounded)
         {
-            rb.AddForce(transform.up * jumpForce); //Jump to the relative up
+            if (!enableAnim) ApplyJump();
             AnimationJump();
         }
 
@@ -300,6 +308,12 @@ public class FPControl : MonoBehaviour
         else if (rb.velocity.y > 0 && !Input.GetButton(jumpA) && !Input.GetButton(jumpB)) //Low Jump if no longer pressing jump button
             rb.velocity += transform.up * Physics.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
     }
+
+    public void ApplyJump() // called from an animation event, enables correctly done animated jumping
+    {
+        rb.AddForce(transform.up * jumpForce);
+    }
+    #endregion
 
     bool isSprinting()
     {
@@ -325,12 +339,16 @@ public class FPControl : MonoBehaviour
     #region ANIMATION
     void AnimationSetVars()
     {
+        if (!enableAnim) return;
+
         anim.SetBool("isGrounded", grounded);
         anim.SetFloat("Y Velocity", rb.velocity.y);
     }
 
     void AnimationSprintBlend(float movement)
     {
+        if (!enableAnim) return;
+
         if (movement > 1)
         {
             if (sprintOn)
@@ -370,8 +388,16 @@ public class FPControl : MonoBehaviour
 
     void AnimationJump()
     {
+        if (!enableAnim) return;
+
         anim.SetBool("jumping", true);
     }
     #endregion
+
+    // can be referenced by anything to end game
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
 
